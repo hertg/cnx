@@ -12,7 +12,7 @@ fn main() -> Result<(), Error> {
     };
 
     let pager_attr = Attributes {
-        font: Font::new("Ubuntu Mono Bold 14"),
+        font: Font::new("monospace"),
         fg_color: Color::white(),
         bg_color: Some(Color::blue()),
         padding: Padding::new(8.0, 8.0, 0.0, 0.0),
